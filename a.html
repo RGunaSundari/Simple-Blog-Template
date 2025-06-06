@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Blog Layout with Bootstrap 5</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--Header-->
+        <div class="container">
+            <header class="py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+
+                    <div class="col-4 pt-1">
+                        <a href="#" class="link-secondary">Subscribe</a>
+                    </div>
+
+                    <div class="col-4 text-center">
+                        <a href="#" class="text-dark fs-2">Logo</a>
+                    </div>
+
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        <a href="#" class="link-secondary">
+                            <svg xmnls="https://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 211-5.2-5.2"/></svg>
+                        </a>
+                        <a href="#" class="btn btn-smc btn-outline-secondary">SignUp</a>
+                    </div>
+                </div>
+
+                <hr/>
+            </header>
+            <!--End of header-->
+
+            <!--Navigation-->
+            <div class="py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                    <a href="#" class="p-2 link-secondary">World</a>
+                    <a href="#" class="p-2 link-secondary">Sport</a>
+                    <a href="#" class="p-2 link-secondary">Technology</a>
+                    <a href="#" class="p-2 link-secondary">Design</a>
+                    <a href="#" class="p-2 link-secondary">Culture</a>
+                    <a href="#" class="p-2 link-secondary">Bussiness</a>
+                    <a href="#" class="p-2 link-secondary">Politics</a>
+                    <a href="#" class="p-2 link-secondary">Opinions</a>
+                    <a href="#" class="p-2 link-secondary">Science</a>
+                    <a href="#" class="p-2 link-secondary">Health</a>
+                    <a href="#" class="p-2 link-secondary">Style</a>
+                    <a href="#" class="p-2 link-secondary">Travel</a>
+                </nav>
+
+            </div><!--End of navigation-->
+        </div><!--End of headers-->
+
+        <!--Main Content-->
+        <main class="container">
+            <!--Main Header-->
+            <div class="p-4 p-md-5 mb-4 text-white bg-dark rounded">
+                <div class="col-md-6 px-0">
+                    <h1 class="display-4 fst-italic">Cool featured blog post</h1>
+                    <p class="lead my-3">Discover the cool new feature that makes your experience faster, easier, and more fun! In this blog, we break down how it works and why you'll love using it.</p>
+                    <p class="lead mb-0">
+                        <a href="#" class="rext-white fw-bold">Continue reading...</a>
+                    </p>
+                </div>
+            </div><!--end of main header-->
+
+            <!--Featured post-->
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Sport</strong>
+                            <h3 class="mb-0">Featured Post</h3>
+                            <div class="mb-1 text-muted">Nov 24</div>
+                            <p class="card-text mb-auto">Sports help us stay healthy and strong by keeping our bodies active and fit. When we play games, 
+                                we learn how to work together as a team to achieve our goals. Playing sport makes us happy and allows us to have lots of fun with our freinds.
+                            </p>
+                            <a href="#" class="stretched-link">Continue Reading...</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placdholder-img" width="200" height="250" xmlns="https://www.w3.org/2000/svg" 
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusabe="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text 
+                            x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row g-0 border overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Design</strong>
+                            <h3 class="mb-0">Post Title</h3>
+                            <div class="mb-1 text-muted">Nov 23</div>
+                            <p class="card-text mb-auto">Design help us to be creative and gives new ideas to create new fashion. 
+                            </p>
+                            <a href="#" class="stretched-link">Continue Reading...</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placdholder-img" width="200" height="250" xmlns="https://www.w3.org/2000/svg" 
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusabe="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text 
+                            x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of featured post-->
+
+            <!--post content-->
+            <div class="row g-5">
+                <!--post-->
+                <div class="col-md-8">
+                    <h2 class="pd-4 mb-4 fst-italic border-bottom">Blog Post Example - Travel Tamil Nadu</h2>
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/9/90/Meenakshi_Amman_Temple_panorama.jpg class="card-img-top" alt="Madurai">
+                           
+                            <h5 >Madurai - The Temple City</h5>
+                            <p >Madurai, one of the oldest cities in India, is famous for the <b>Meenakshi Amman Temple</b> - a masterpice of Dravidian architecture.
+                            The City buzzes with traditional Tamil culture,bustling markets, and aromatic street food. 
+                            Don't miss the night ceremony at the temple and a walk around the <b>Puthu Mandapam</b> for handmade crafts. </p>
+                            <p>Highllights:
+                                <ul>
+                                    <li>Meenakshi Amman Temple</li>
+                                    <li>Thirumalai Nayakkar Place</li>
+                                    <li>Gandhi Memorial Museum</li>
+                                    <li>Banana Market</li>
+                                </ul>
+                            </p>
+                    
+                          <hr>
+                    
+                      <!--Ooty -->
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/8/89/Ooty_Lake.jpg class="card-img-top" alt="Ooty">
+                           
+                            <h5>Ooty - Queen of the Hills</h5>
+                            <p>Enjoy the cool climate, tea plantations, and lake views in this charming hill station.
+                            Nestled in the Nilgiris, Ooty is known for its <b>cool, tea planatations</b>, and <b>picturesque landscape</b>.
+                            Ride the famous <b>Nilgiri Mountain Railway</b>, stroll through <b>Botanical Gardens</b>, and enjoy a boat ride on <b>Ooty Lake</b>. It's the perfect escape from summer heat.</p>
+                            <p>Highlights:
+                                <ul>
+                                    <li>Ooty Lake</li>
+                                    <li>Doddabetta Peak </li>
+                                    <li>Tea Museum & Factory
+                                    </li>
+                                    <li>Rose Garden</li>
+                                </ul>
+                            </p>
+                          
+                          <hr>
+                       
+                    
+                      <!--Mahabalipuram -->
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/e/e2/Mahabalipuram_Shore_Temple.JPG class="card-img-top" alt="Mahabalipuram">
+                           
+                            <h5>Mahabalipuram - City of Stone</h5>
+                            <p >Discover ancient stone carvings and enjoy the coastal vibes at the Shore Temple.
+                            A UNESCO Worls Heritage Site, Mahabalipuram boasts <b>ancient rock-cut temples</b>, <b>Shoreline monuments</b>, and beatuiful beaches.
+                            Visit the <b>Shore temple</b>, marvel at <b>Aruna'a Penance</b>, and enjoy fresh seafood by the sea.</p>
+                            <p>Highlights:
+                                <ul>
+                                    <li>Shore Temple</li>
+                                    <li>Five Rathas</li>
+                                    <li>Arjuna's Penance</li>
+                                    <li>Mahabalipuram Beach</li>
+                                </ul>
+                            </p>
+                           <hr>
+                        
+                      <!--Kodaikanal -->
+                         
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/0/03/Kodaikanal_lake.jpg class="card-img-top" alt="Kodaikanal">
+                           
+                            <h5>Kodaikanal - The Princess of Hill Stations</h5>
+                            <p >Cycle around the lake, enjoy misty views, and explore scenic spots in this romantic getaway.
+                            Kodaikanal offers <b>misty mountains</b>, <b>pine forests</b>, and <b>Kodaikanal Lake</b>, trek to <b>Dolphin's Nose</b>, and enjoy fresh chocolates.
+                            It's a prefect romatic and family-friendly destination.</p>
+                            <p>Highlights:
+                                <ul>
+                                    <li>Kodaikanal Lake</li>
+                                    <li>Coaker's Walk</li>
+                                    <li>Bryant Park</li>
+                                    <li>Pillar Rocks</li>
+                                    <li>Dolphin's Nose
+                                    </li>
+                                </ul>
+                            </p>
+                           
+                         
+                      
+                    
+                      <!--Mudumalai -->
+                      
+                        
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/d/df/Mudumalai_Wildlife_Sanctuary_-_Elephants.jpg class="card-img-top" alt="Mudumalai">
+                          
+                            <h5>MudumalaiInto the Wild - </h5>
+                            <p >Experience wildlife safaris and see elephants, leopards, and exotic birds in the forest.
+                            Located on the border of Tamil Nadu and Karnataka, <b>Mudumalai wildlife Sanctuary</b> is perfect for wildlife lovers.
+                            Spot elephants, leopards, deer and exotic birds on a safari through the forest.</p>
+                            <p >Highlights:
+                                <ul>
+                                    <li>Jeep safari</li>
+                                    <li>Elephant Camp</li>
+                                    <li>Theppakadu Teserve</li>
+                                    <li>Birdwatching trails</li>
+                                </ul>
+                            </p>
+                           
+                          <hr>
+                      
+                    
+                      <!--Rameswaram -->
+                      
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/e/e1/Ramanathaswamy_Temple%2C_Rameswaram.jpg class="card-img-top" alt="Rameswaram">
+                          
+                            <h5 >Rameswaram - Island of Devotion</h5>
+                            <p >Explore ancient temples and walk across the Pamban Bridge to the sacred island of Rameswaram.</p>
+                            <p >Connected to the mainland by the <b>Pamban Bridge</b>, Rameswaram is known for its religious significance and beatuiful coastal views.
+                            The kcorridors of <b>Ramanathaswamy Temple</b> are the longest in India.</p>
+                            <p >Highlights:
+                                <ul>
+                                    <li>Ramanathaswamy Temple</li>
+                                    <li>Pamban Bridge</li>
+                                    <li>Dhanushkodi Ghost Temple
+                                    </li>
+                                    <li>Agni Theertham</li>
+                                </ul>
+                            </p>
+                          <hr>
+                        
+                    
+                      <!--Yelagiri -->
+                      
+                    
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Yelagiri_punganoor_lake.jpg" class="card-img-top" alt="Yelagiri">
+                          
+                            <h5 >Yelagiri - Quite Nature Escape</h5>
+                            <p >Perfect for a quiet nature escape with lake boating, fruit orchards, and herbal gardens.</p>
+                            <p >A lesser-known hill station, <b>Yelagiri</b> is peaseful and idea for short weekend trips.
+                            It offers simple trekking trails, boating, and local fruit wines</p>
+                            <p >Highlights:
+                                <ul>
+                                    <li>Nature Park</li>
+                                    <li>Punganoor lake
+                                    </li>
+                                    <li>Swamimalai Hills</li>
+                                    <li>Herbal Garden</li>
+                                </ul>
+                            </p>
+                          <hr>
+                        
+            
+                    
+                      <!--Thanjavur -->
+                      
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/2/2a/Thanjavur_Brihadeeswara_Temple.jpg class="card-img-top" alt="Thanjavur">
+                          
+                            <h5>Thanjavur - Land of Art and Culture</h5>
+                            <p >Visit the Great Living Chola Temples and explore traditional Tanjore paintings and palace museums.
+                            Thanjavur is the cradle of classical arts and South Indian Heritage.
+                                The magnificent <b>Brihadeeswar Temple</b>, built by Raja Raja Chola 1, is a UNESCO Worls Heritage Site.
+                            </p>
+                            <p >Higlights:
+                                <ul>
+                                    <li>Big Temple (Periya Kovil)</li>
+                                    <li>Thanjavur Palace</li>
+                                    <li>Sarawathi MAhal Library</li>
+                                    <li>Tanjore Painting Workshops
+                                    </li>
+                                </ul>
+                            </p>
+                          
+                        <hr>
+                    
+                      <!--Dhanushkodi -->
+                      
+                        
+                          <img src=https://upload.wikimedia.org/wikipedia/commons/e/e4/Dhanushkodi_Ruins.jpg class="card-img-top" alt="Dhanushkodi">
+                           
+                            <h5 >Dhanushkodi - The Lost Land</h5>
+                    
+                            <p >Witness the ghost town by the sea where two oceans meet and feel the haunting beauty of the past.
+                            At the southeastern tip of Tamil Nadu lies <b>Dhanushkodi</b>, a town destroyed by a cyclone in 1964,
+                            Th is now a myterious sea views where the Bay of Bengal and Indian Ocean meets.</p>
+                            <p >Highlights:
+                                <ul>
+                                    <li>Ruins of the old church and railway</li>
+                                    <li>Land's End view</li>
+                                    <li>Ghost town vibes</li>
+                                    <li>Drive along the coastal road</li>
+                                </ul>
+                            </p>
+                    
+                          
+                        
+                </div>
+
+                </div><!--end of post-->
+
+                <!--sidebar-->
+                <div class="col-md-4">
+                <div class="position-sticky" style="top:2rem;">
+                    <!--about-->
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0">Simple Travel blog website buitl with html and bootstrap5 showcasing top tourist places in Tamil nadu.</p> 
+
+                    </div><!--end of about-->
+                    <!--archives-->
+                    <div class="p-4">
+                        <h4 class="fst-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#">September 2022</a></li>
+                            <li><a href="#">August 2022</a></li>
+                            <li><a href="#">July 2022</a></li>
+                            <li><a href="#">June 2022</a></li>
+                            <li><a href="#">May 2022</a></li>
+                            <li><a href="#">April 2022</a></li>
+                            <li><a href="#">March 2022</a></li>
+                            <li><a href="#">February 2022</a></li>
+                            <li><a href="#">January 2022</a></li>
+                            <li><a href="#">December 2023</a></li>
+                            <li><a href="#">October 2023</a></li>
+                        </ol>
+                    </div><!--end of archives-->
+                    <!--social-->
+                    <div class="p-4">
+                        <h4 class="fst-italic">Social</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            
+                        </ul>
+                    </div><!--end of social-->
+                </div>
+
+            </div><!--end of sidebar-->
+        </div>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEI1VSCgzq+c9gqGaJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
